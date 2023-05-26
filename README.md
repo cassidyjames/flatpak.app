@@ -13,3 +13,15 @@ There are a number of open questions:
 3. How do we maintain this? Community-led best-effort?
 
 4. Does this have any value?
+
+## Index:
+
+<ul>
+{% for app in site.data.apps %}
+  <li>
+    <a href="{{ site.baseurl }}/{{ app.shortname }}">
+      {{ app.shortname }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
