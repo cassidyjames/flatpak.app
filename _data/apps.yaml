@@ -1,7 +1,107 @@
+- shortname: brave
+  remote: flathub
+  rdnn: com.brave.Browser
+
+- shortname: chrome
+  remote: flathub
+  rdnn: com.google.Chrome
+
+- shortname: citra
+  remote: flathub
+  rdnn: org.citra_emu.citra
+
+- shortname: clairvoyant
+  remote: flathub
+  rdnn: com.github.cassidyjames.clairvoyant
+
 - shortname: dippi
   remote: flathub
   rdnn: com.github.cassidyjames.dippi
 
+- shortname: discord
+  remote: flathub
+  rdnn: com.discordapp.Discord
+
+- shortname: dolphin
+  remote: flathub
+  rdnn: org.kde.dolphin
+
+- shortname: dolphin-emu
+  remote: flathub
+  rdnn: org.DolphinEmu.dolphin-emu
+
+- shortname: duckstation
+  remote: flathub
+  rdnn: org.duckstation.DuckStation
+
+- shortname: edge
+  remote: flathub
+  rdnn: com.microsoft.Edge
+
 - shortname: firefox
   remote: flathub
   rdnn: org.mozilla.firefox
+
+- shortname: flatseal
+  remote: flathub
+  rdnn: com.github.tchx84.Flatseal
+
+- shortname: lutris
+  remote: flathub
+  rdnn: net.lutris.Lutris
+
+- shortname: melonds
+  remote: flathub
+  rdnn: net.kuribo64.melonDS
+
+- shortname: obs
+  remote: flathub
+  rdnn: com.obsproject.Studio
+
+- shortname: ppsspp
+  remote: flathub
+  rdnn: org.ppsspp.PPSSPP
+
+- shortname: primehack
+  remote: flathub
+  rdnn: io.github.shiiion.primehack
+
+- shortname: protonup-qt
+  remote: flathub
+  rdnn: net.davidotek.pupgui2
+
+- shortname: retroarch
+  remote: flathub
+  rdnn: org.libretro.RetroArch
+
+- shortname: rpcs3
+  remote: flathub
+  rdnn: net.rpcs3.RPCS3
+
+- shortname: scummvm
+  remote: flathub
+  rdnn: org.scummvm.ScummVM
+
+- shortname: spotify
+  remote: flathub
+  rdnn: com.spotify.Client
+
+- shortname: steam
+  remote: flathub
+  rdnn: com.valvesoftware.Steam
+
+- shortname: telegram
+  remote: flathub
+  rdnn: org.telegram.desktop
+
+- shortname: vlc
+  remote: flathub
+  rdnn: org.videolan.VLC
+
+- shortname: vscode
+  remote: flathub
+  rdnn: com.visualstudio.code
+
+- shortname: xemu
+  remote: flathub
+  rdnn: app.xemu.xemu
