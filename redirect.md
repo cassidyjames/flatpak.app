@@ -11,11 +11,14 @@ Try heading to [the homepage]({{ site.baseurl }})? If you've disabled JavaScript
 <script>
   document.addEventListener ('DOMContentLoaded', (event) => {
     let path = window.location.pathname.replace ("{{ site.baseurl }}/", "");
-    const rdnns = [{% for app in site.data.apps %}
-      "{{ app.rdnn }}",
+    let rdnnRegex = /[A-Z,a-z,0-9][A-Z,a-z,0-9,-]*[A-Z,a-z,0-9]\.[A-Z,a-z,0-9][A-Z,a-z,0-9,-]*[A-Z,a-z,0-9]\.[A-Z,a-z,0-9]/;
+    const shortnames = [{% for app in site.data.apps %}
+      "{{ app.shortname }}",
     {% endfor %}];
 
-    if (rdnns.includes (path)) {
+    if (shortnames.includes (path)) {
+      window.location.replace("https://flathub.org/apps/" + path);
+    } else if (rdnnRegex.test (path)) {
       window.location.replace("https://flathub.org/apps/" + path);
     }
   })
