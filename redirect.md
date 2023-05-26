@@ -12,7 +12,7 @@ Try heading to [the homepage](/)? If you've disabled JavaScript, this proof-of-c
   document.addEventListener ('DOMContentLoaded', (event) => {
     let path = window.location.pathname.slice (1, window.location.pathname.length);
     const rdnns = [{% for app in site.data.apps %}
-      {{ app.rdnn }},
+      "{{ app.rdnn }}",
     {% endfor %}];
   })
 </script>
