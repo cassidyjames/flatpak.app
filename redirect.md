@@ -10,7 +10,7 @@ Try heading to [the homepage]({{ site.baseurl }})? If you've disabled JavaScript
 
 <script>
   document.addEventListener ('DOMContentLoaded', (event) => {
-    let path = window.location.pathname.replace ("{{ site.baseurl }}", "");
+    let path = window.location.pathname.replace ("{{ site.baseurl }}/", "");
     const rdnns = [{% for app in site.data.apps %}
       "{{ app.rdnn }}",
     {% endfor %}];
