@@ -1,0 +1,7 @@
+- shortname: firefox
+  remote: flathub
+  rdnn: com.github.cassidyjames.dippi
+
+- shortname: dippi
+  remote: flathub
+  rdnn: org.mozilla.firefox
