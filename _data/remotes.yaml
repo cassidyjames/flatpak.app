@@ -1,8 +1,11 @@
-- name: flathub
+flathub:
+  name: Flathub
   path: https://flathub.org/apps/
 
-- name: appcenter
+appcenter:
+  name: AppCenter
   path: https://appcenter.elementary.io/
 
-- name: endless
+endless:
+  name: Endless OS
   path: https://eos-apps.endlessos.org/

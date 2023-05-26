@@ -1,107 +1,134 @@
-- shortname: brave
+brave:
+  name: Brave Browser
   remote: flathub
   rdnn: com.brave.Browser
 
-- shortname: chrome
+chrome:
+  name: Chrome
   remote: flathub
   rdnn: com.google.Chrome
 
-- shortname: citra
+citra:
+  name: Citra
   remote: flathub
   rdnn: org.citra_emu.citra
 
-- shortname: clairvoyant
+clairvoyant:
+  name: Clairvoyant
   remote: flathub
   rdnn: com.github.cassidyjames.clairvoyant
 
-- shortname: dippi
+dippi:
+  name: Dippi
   remote: flathub
   rdnn: com.github.cassidyjames.dippi
 
-- shortname: discord
+discord:
+  name: Discord
   remote: flathub
   rdnn: com.discordapp.Discord
 
-- shortname: dolphin
+dolphin:
+  name: Dolphin
   remote: flathub
   rdnn: org.kde.dolphin
 
-- shortname: dolphin-emu
+dolphin-emu:
+  name: Dolphin Emulator
   remote: flathub
   rdnn: org.DolphinEmu.dolphin-emu
 
-- shortname: duckstation
+duckstation:
+  name: DuckStation
   remote: flathub
   rdnn: org.duckstation.DuckStation
 
-- shortname: edge
+edge:
+  name: Microsoft Edge
   remote: flathub
   rdnn: com.microsoft.Edge
 
-- shortname: firefox
+firefox:
+  name: Firefox
   remote: flathub
   rdnn: org.mozilla.firefox
 
-- shortname: flatseal
+flatseal:
+  name: Flatseal
   remote: flathub
   rdnn: com.github.tchx84.Flatseal
 
-- shortname: lutris
+lutris:
+  name: Lutris
   remote: flathub
   rdnn: net.lutris.Lutris
 
-- shortname: melonds
+melonds:
+  name: melonds
   remote: flathub
   rdnn: net.kuribo64.melonDS
 
-- shortname: obs
+obs:
+  name: OBS Studio
   remote: flathub
   rdnn: com.obsproject.Studio
 
-- shortname: ppsspp
+ppsspp:
+  name: PPSSPP
   remote: flathub
   rdnn: org.ppsspp.PPSSPP
 
-- shortname: primehack
+primehack:
+  name: primehack
   remote: flathub
   rdnn: io.github.shiiion.primehack
 
-- shortname: protonup-qt
+protonup-qt:
+  name: Protonup-Qt
   remote: flathub
   rdnn: net.davidotek.pupgui2
 
-- shortname: retroarch
+retroarch:
+  name: RetroArch
   remote: flathub
   rdnn: org.libretro.RetroArch
 
-- shortname: rpcs3
+rpcs3:
+  name: RPCS3
   remote: flathub
   rdnn: net.rpcs3.RPCS3
 
-- shortname: scummvm
+scummvm:
+  name: ScummVM
   remote: flathub
   rdnn: org.scummvm.ScummVM
 
-- shortname: spotify
+spotify:
+  name: Spotify
   remote: flathub
   rdnn: com.spotify.Client
 
-- shortname: steam
+steam:
+  name: Steam
   remote: flathub
   rdnn: com.valvesoftware.Steam
 
-- shortname: telegram
+telegram:
+  name: Telegram
   remote: flathub
   rdnn: org.telegram.desktop
 
-- shortname: vlc
+vlc:
+  name: VLC
   remote: flathub
   rdnn: org.videolan.VLC
 
-- shortname: vscode
+vscode:
+  name: Visual Studio Code
   remote: flathub
   rdnn: com.visualstudio.code
 
-- shortname: xemu
+xemu:
+  name: xemu
   remote: flathub
   rdnn: app.xemu.xemu

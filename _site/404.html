@@ -20,7 +20,7 @@
 {"@context":"https://schema.org","@type":"WebPage","headline":"Page Not Found","url":"http://0.0.0.0:4000/404.html"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=6dc48534368a8e489abb6ddfaa7d760b1fa6bad4">
+    <link rel="stylesheet" href="/assets/css/style.css?v=5727ae7d69abf98785d34d52cdbdf4eae46a647f">
     <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
 
 <!-- Setup Google Analytics -->
@@ -50,69 +50,13 @@
     let path = window.location.pathname.replace ("/", "");
     let rdnnRegex = /[A-Z,a-z,0-9][A-Z,a-z,0-9,-]*[A-Z,a-z,0-9]\.[A-Z,a-z,0-9][A-Z,a-z,0-9,-]*[A-Z,a-z,0-9]\.[A-Z,a-z,0-9]/;
 
-    const apps = [{"shortname":"brave","remote":"flathub","rdnn":"com.brave.Browser"},{"shortname":"chrome","remote":"flathub","rdnn":"com.google.Chrome"},{"shortname":"citra","remote":"flathub","rdnn":"org.citra_emu.citra"},{"shortname":"clairvoyant","remote":"flathub","rdnn":"com.github.cassidyjames.clairvoyant"},{"shortname":"dippi","remote":"flathub","rdnn":"com.github.cassidyjames.dippi"},{"shortname":"discord","remote":"flathub","rdnn":"com.discordapp.Discord"},{"shortname":"dolphin","remote":"flathub","rdnn":"org.kde.dolphin"},{"shortname":"dolphin-emu","remote":"flathub","rdnn":"org.DolphinEmu.dolphin-emu"},{"shortname":"duckstation","remote":"flathub","rdnn":"org.duckstation.DuckStation"},{"shortname":"edge","remote":"flathub","rdnn":"com.microsoft.Edge"},{"shortname":"firefox","remote":"flathub","rdnn":"org.mozilla.firefox"},{"shortname":"flatseal","remote":"flathub","rdnn":"com.github.tchx84.Flatseal"},{"shortname":"lutris","remote":"flathub","rdnn":"net.lutris.Lutris"},{"shortname":"melonds","remote":"flathub","rdnn":"net.kuribo64.melonDS"},{"shortname":"obs","remote":"flathub","rdnn":"com.obsproject.Studio"},{"shortname":"ppsspp","remote":"flathub","rdnn":"org.ppsspp.PPSSPP"},{"shortname":"primehack","remote":"flathub","rdnn":"io.github.shiiion.primehack"},{"shortname":"protonup-qt","remote":"flathub","rdnn":"net.davidotek.pupgui2"},{"shortname":"retroarch","remote":"flathub","rdnn":"org.libretro.RetroArch"},{"shortname":"rpcs3","remote":"flathub","rdnn":"net.rpcs3.RPCS3"},{"shortname":"scummvm","remote":"flathub","rdnn":"org.scummvm.ScummVM"},{"shortname":"spotify","remote":"flathub","rdnn":"com.spotify.Client"},{"shortname":"steam","remote":"flathub","rdnn":"com.valvesoftware.Steam"},{"shortname":"telegram","remote":"flathub","rdnn":"org.telegram.desktop"},{"shortname":"vlc","remote":"flathub","rdnn":"org.videolan.VLC"},{"shortname":"vscode","remote":"flathub","rdnn":"com.visualstudio.code"},{"shortname":"xemu","remote":"flathub","rdnn":"app.xemu.xemu"}];
-    const remotes = [{"name":"flathub","path":"https://flathub.org/apps/"},{"name":"appcenter","path":"https://appcenter.elementary.io/"},{"name":"endless","path":"https://eos-apps.endlessos.org/"}];
+    const apps = {"brave":{"name":"Brave Browser","remote":"flathub","rdnn":"com.brave.Browser"},"chrome":{"name":"Chrome","remote":"flathub","rdnn":"com.google.Chrome"},"citra":{"name":"Citra","remote":"flathub","rdnn":"org.citra_emu.citra"},"clairvoyant":{"name":"Clairvoyant","remote":"flathub","rdnn":"com.github.cassidyjames.clairvoyant"},"dippi":{"name":"Dippi","remote":"flathub","rdnn":"com.github.cassidyjames.dippi"},"discord":{"name":"Discord","remote":"flathub","rdnn":"com.discordapp.Discord"},"dolphin":{"name":"Dolphin","remote":"flathub","rdnn":"org.kde.dolphin"},"dolphin-emu":{"name":"Dolphin Emulator","remote":"flathub","rdnn":"org.DolphinEmu.dolphin-emu"},"duckstation":{"name":"DuckStation","remote":"flathub","rdnn":"org.duckstation.DuckStation"},"edge":{"name":"Microsoft Edge","remote":"flathub","rdnn":"com.microsoft.Edge"},"firefox":{"name":"Firefox","remote":"flathub","rdnn":"org.mozilla.firefox"},"flatseal":{"name":"Flatseal","remote":"flathub","rdnn":"com.github.tchx84.Flatseal"},"lutris":{"name":"Lutris","remote":"flathub","rdnn":"net.lutris.Lutris"},"melonds":{"name":"melonds","remote":"flathub","rdnn":"net.kuribo64.melonDS"},"obs":{"name":"OBS Studio","remote":"flathub","rdnn":"com.obsproject.Studio"},"ppsspp":{"name":"PPSSPP","remote":"flathub","rdnn":"org.ppsspp.PPSSPP"},"primehack":{"name":"primehack","remote":"flathub","rdnn":"io.github.shiiion.primehack"},"protonup-qt":{"name":"Protonup-Qt","remote":"flathub","rdnn":"net.davidotek.pupgui2"},"retroarch":{"name":"RetroArch","remote":"flathub","rdnn":"org.libretro.RetroArch"},"rpcs3":{"name":"RPCS3","remote":"flathub","rdnn":"net.rpcs3.RPCS3"},"scummvm":{"name":"ScummVM","remote":"flathub","rdnn":"org.scummvm.ScummVM"},"spotify":{"name":"Spotify","remote":"flathub","rdnn":"com.spotify.Client"},"steam":{"name":"Steam","remote":"flathub","rdnn":"com.valvesoftware.Steam"},"telegram":{"name":"Telegram","remote":"flathub","rdnn":"org.telegram.desktop"},"vlc":{"name":"VLC","remote":"flathub","rdnn":"org.videolan.VLC"},"vscode":{"name":"Visual Studio Code","remote":"flathub","rdnn":"com.visualstudio.code"},"xemu":{"name":"xemu","remote":"flathub","rdnn":"app.xemu.xemu"}};
+    const remotes = {"flathub":{"name":"Flathub","path":"https://flathub.org/apps/"},"appcenter":{"name":"AppCenter","path":"https://appcenter.elementary.io/"},"endless":{"name":"Endless OS","path":"https://eos-apps.endlessos.org/"}};
 
-    const shortnames = [
-      "brave",
-    
-      "chrome",
-    
-      "citra",
-    
-      "clairvoyant",
-    
-      "dippi",
-    
-      "discord",
-    
-      "dolphin",
-    
-      "dolphin-emu",
-    
-      "duckstation",
-    
-      "edge",
-    
-      "firefox",
-    
-      "flatseal",
-    
-      "lutris",
-    
-      "melonds",
-    
-      "obs",
-    
-      "ppsspp",
-    
-      "primehack",
-    
-      "protonup-qt",
-    
-      "retroarch",
-    
-      "rpcs3",
-    
-      "scummvm",
-    
-      "spotify",
-    
-      "steam",
-    
-      "telegram",
-    
-      "vlc",
-    
-      "vscode",
-    
-      "xemu",
-    ];
-
-    let app = apps.find(app => app.shortname == path);
+    let app = apps[path];
 
     if (app !== undefined) {
-      window.location.replace(remotes.find(remote => remote.name == app.remote).path + app.rdnn);
+      window.location.replace(remotes[app.remote].path + app.rdnn);
     } else if (rdnnRegex.test (path)) {
       window.location.replace("https://flathub.org/apps/" + path);
     }

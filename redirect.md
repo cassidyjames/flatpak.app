@@ -16,14 +16,10 @@ Try heading to [the homepage]({{ site.baseurl }})? If you've disabled JavaScript
     const apps = {{ site.data.apps | jsonify }};
     const remotes = {{ site.data.remotes | jsonify }};
 
-    const shortnames = [{% for app in site.data.apps %}
-      "{{ app.shortname }}",
-    {% endfor %}];
-
-    let app = apps.find(app => app.shortname == path);
+    let app = apps[path];
 
     if (app !== undefined) {
-      window.location.replace(remotes.find(remote => remote.name == app.remote).path + app.rdnn);
+      window.location.replace(remotes[app.remote].path + app.rdnn);
     } else if (rdnnRegex.test (path)) {
       window.location.replace("https://flathub.org/apps/" + path);
     }

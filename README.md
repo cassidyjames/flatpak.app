@@ -6,21 +6,24 @@ As a proof-of-concept, this site is running entirely staticly on GitHub Pages (a
 
 There are a number of open questions:
 
-1. What do we do if there are naming conflicts? E.g. Akira is on both AppCenter and Flathub.
+1. What do we do if there are naming conflicts? E.g. if an app is on both AppCenter and Flathub.
 
 2. Is this a terrible, unmaintainable idea?
 
-3. How do we maintain this? Community-led best-effort?
+3. How _do_ we maintain this? Community-led best-effort?
 
 4. Does this have any value?
 
 ## Index:
 
 <ul>
-{% for app in site.data.apps %}
+{% for each in site.data.apps %}
+  {% assign shortname = each[0] %}
+  {% assign app = site.data.apps[shortname] %}
+
   <li>
-    <a href="{{ site.baseurl }}/{{ app.shortname }}">
-      {{ app.shortname }}
+    <a href="{{ site.data.remotes[app.remote].path }}{{ app.rdnn }}">
+      <strong>{{ shortname }}</strong> ({{ app.name }})
     </a>
   </li>
 {% endfor %}
