@@ -1,3 +1,8 @@
+bottles:
+  name: Bottles
+  remote: flathub
+  rdnn: com.usebottles.bottles
+
 brave:
   name: Brave Browser
   remote: flathub
