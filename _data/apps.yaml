@@ -143,6 +143,11 @@ scummvm:
   remote: flathub
   rdnn: org.scummvm.ScummVM
 
+signal:
+  name: Signal Desktop
+  remote: flathub
+  rdnn: org.signal.Signal
+
 spotify:
   name: Spotify
   remote: flathub
