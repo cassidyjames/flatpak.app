@@ -32,3 +32,5 @@ There are a number of open questions:
   </li>
 {% endfor %}
 </ul>
+
+<script defer data-domain="flatpak.app" src="https://plausible.io/js/script.js"></script>
