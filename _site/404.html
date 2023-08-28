@@ -6,21 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Page Not Found | flatpak.app</title>
+<title>Redirecting… | flatpak.app</title>
 <meta name="generator" content="Jekyll v3.9.3" />
-<meta property="og:title" content="Page Not Found" />
+<meta property="og:title" content="Redirecting…" />
 <meta property="og:locale" content="en_US" />
 <link rel="canonical" href="http://0.0.0.0:4000/404.html" />
 <meta property="og:url" content="http://0.0.0.0:4000/404.html" />
 <meta property="og:site_name" content="flatpak.app" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Page Not Found" />
+<meta property="twitter:title" content="Redirecting…" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","headline":"Page Not Found","url":"http://0.0.0.0:4000/404.html"}</script>
+{"@context":"https://schema.org","@type":"WebPage","headline":"Redirecting…","url":"http://0.0.0.0:4000/404.html"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=5727ae7d69abf98785d34d52cdbdf4eae46a647f">
+    <link rel="stylesheet" href="/assets/css/style.css?v=58c57a57e2b4ba05368217e4c1801b0d9f93a0e3">
     <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
 
 <!-- Setup Google Analytics -->
@@ -39,11 +39,9 @@
       <h1><a href="http://0.0.0.0:4000/">flatpak.app</a></h1>
       
 
-      <h1 id="page-not-found">Page Not Found</h1>
+      <h1 id="redirecting">Redirecting…</h1>
 
-<h2 id="hm-whatever-youre-looking-for-it-isnt-here">Hm… whatever you’re looking for, it isn’t here!</h2>
-
-<p>Try heading to <a href="">the homepage</a>? If you’ve disabled JavaScript, this proof-of-concept won’t work for you.</p>
+<p>If you’ve disabled JavaScript, this proof-of-concept won’t work for you. Try heading to <a href="/">the homepage</a> to learn more.</p>
 
 <script>
   document.addEventListener ('DOMContentLoaded', (event) => {
@@ -59,6 +57,9 @@
       window.location.replace(remotes[app.remote].path + app.rdnn);
     } else if (rdnnRegex.test (path)) {
       window.location.replace("https://flathub.org/apps/" + path);
+    } else {
+      console.log("Wee!");
+      window.location.replace("/");
     }
   })
 </script>

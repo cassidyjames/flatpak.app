@@ -2,11 +2,9 @@
 permalink: 404.html
 ---
 
-# Page Not Found
+# Redirecting…
 
-## Hm… whatever you're looking for, it isn't here!
-
-Try heading to [the homepage]({{ site.baseurl }})? If you've disabled JavaScript, this proof-of-concept won't work for you.
+If you've disabled JavaScript, this proof-of-concept won't work for you. Try heading to [the homepage]({{ '/' | relative_url }}) to learn more.
 
 <script>
   document.addEventListener ('DOMContentLoaded', (event) => {
@@ -22,6 +20,9 @@ Try heading to [the homepage]({{ site.baseurl }})? If you've disabled JavaScript
       window.location.replace(remotes[app.remote].path + app.rdnn);
     } else if (rdnnRegex.test (path)) {
       window.location.replace("https://flathub.org/apps/" + path);
+    } else {
+      console.log("Wee!");
+      window.location.replace("{{ '/' | relative_url }}");
     }
   })
 </script>
