@@ -85,7 +85,7 @@ melonds:
 
 nimbus:
   name: Nimbus
-  remote: appcenteR:
+  remote: appcenter
   rdnn: io.github.danirabbit.nimbus
 
 obs:
@@ -172,3 +172,8 @@ xemu:
   name: xemu
   remote: flathub
   rdnn: app.xemu.xemu
+
+zoom:
+  name: Zoom
+  remote: flathub
+  rdnn: us.zoom.Zoom
