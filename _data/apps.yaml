@@ -73,6 +73,11 @@ harvey:
   remote: appcenter
   rdnn: com.github.danrabbit.harvey
 
+libreoffice:
+  name: LibreOffice
+  remote: flathub
+  rdnn: org.libreoffice.LibreOffice
+
 lutris:
   name: Lutris
   remote: flathub
