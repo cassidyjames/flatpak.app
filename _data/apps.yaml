@@ -73,6 +73,21 @@ obs:
   remote: flathub
   rdnn: com.obsproject.Studio
 
+plex:
+  name: Plex
+  remote: flathub
+  rdnn: tv.plex.PlexDesktop
+
+plex-htpc:
+  name: Plex HTPC
+  remote: flathub
+  rdnn: tv.plex.PlexHTPC
+
+plexamp:
+  name: Plexamp
+  remote: flathub
+  rdnn: com.plexamp.Plexamp
+
 ppsspp:
   name: PPSSPP
   remote: flathub
