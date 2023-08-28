@@ -58,6 +58,11 @@ flatseal:
   remote: flathub
   rdnn: com.github.tchx84.Flatseal
 
+fretboard:
+  name: Fretboard
+  remote: flathub
+  rdnn: dev.bragefuglseth.Fretboard
+
 lutris:
   name: Lutris
   remote: flathub
