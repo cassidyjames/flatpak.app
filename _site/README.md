@@ -1,8 +1,12 @@
 # flatpak.app
 
-**Experiment in short Flatpak URLs** by [Cassidy James](https://cassidyjames.com). As a proof-of-concept, I've taken a couple dozen of the most popular apps on Flathub (plus a few of my own for testing) and given them nice, predictable short URLs in the format of flatpak.app/name.
+**Experiment in short Flatpak URLs** by [Cassidy James](https://cassidyjames.com). As a proof-of-concept, I've taken a couple dozen of the most popular apps on Flathub (plus a few of my own for testing) and given them nice, predictable short URLs in the format of flatpak.app/name. This [mapping](https://github.com/cassidyjames/flatpak.app/blob/main/_data/apps.yaml) is openly available. 
 
-As a proof-of-concept, this site is running entirely staticly on GitHub Pages (abusing the 404 template) and thus requires client-side JavaScript. A proper production version should probably be server-side. In the spirit of decentralization, it supports remotes other than just Flathub, though naming conflicts might be interesting.
+If a result is not matched:
+- If it's in RDNN-format, it's assumed to be an app listing on Flathub
+- Otherwise, it's treated as a search on Flathub
+
+As a proof-of-concept, this site is running entirely staticly on GitHub Pages (abusing the 404 template) and thus requires client-side JavaScript. A proper production version should probably be server-side. In the spirit of decentralization, it supports [remotes](https://github.com/cassidyjames/flatpak.app/blob/main/_data/remotes.yaml) other than just Flathub (if defined in the data file), though naming conflicts might be interesting.
 
 There are a number of open questions:
 

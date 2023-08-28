@@ -21,8 +21,7 @@ If you've disabled JavaScript, this proof-of-concept won't work for you. Try hea
     } else if (rdnnRegex.test (path)) {
       window.location.replace("https://flathub.org/apps/" + path);
     } else {
-      console.log("Wee!");
-      window.location.replace("{{ '/' | relative_url }}");
+      window.location.replace("https://flathub.org/apps/search?q=" + path);
     }
   })
 </script>
