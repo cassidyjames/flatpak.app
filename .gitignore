@@ -1,0 +1,6 @@
+vendor
+Gemfile.lock # let this be managed by GitHub Pages
+
+# Temporary files
+*~
+unsaved file*
