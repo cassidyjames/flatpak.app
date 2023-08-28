@@ -35,8 +35,6 @@ There are a number of open questions:
 
 ## Stats
 
-<iframe plausible-embed src="https://plausible.io/flatpak.app/?embed=true&theme=system" scrolling="no" frameborder="0" loading="lazy" style="width: 1px; min-width: 100%; height: 1600px;"></iframe>
-<div style="font-size: 14px; padding-bottom: 14px;">Stats powered by <a target="_blank" style="color: #4F46E5; text-decoration: underline;" href="https://plausible.io">Plausible Analytics</a></div>
-<script async src="https://plausible.io/js/embed.host.js"></script>
+[Publicly-viewable stats](https://plausible.io/flatpak.app) powered by Plausible.
 
 <script defer data-domain="flatpak.app" src="https://plausible.io/js/script.js"></script>
