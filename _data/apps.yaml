@@ -68,6 +68,11 @@ fretboard:
   remote: flathub
   rdnn: dev.bragefuglseth.Fretboard
 
+harvey:
+  name: Harvey
+  remote: appcenter
+  rdnn: com.github.danrabbit.harvey
+
 lutris:
   name: Lutris
   remote: flathub
@@ -77,6 +82,11 @@ melonds:
   name: melonds
   remote: flathub
   rdnn: net.kuribo64.melonDS
+
+nimbus:
+  name: Nimbus
+  remote: appcenteR:
+  rdnn: io.github.danirabbit.nimbus
 
 obs:
   name: OBS Studio
@@ -142,6 +152,11 @@ telegram:
   name: Telegram
   remote: flathub
   rdnn: org.telegram.desktop
+
+torrential:
+  name: Torrential
+  remote: appcenter
+  rdnn: com.github.davidmhewitt.torrential
 
 vlc:
   name: VLC
