@@ -37,4 +37,4 @@ There are a number of open questions:
 
 [Publicly-viewable stats](https://plausible.io/flatpak.app) powered by Plausible.
 
-<script defer data-domain="flatpak.app" src="https://plausible.io/js/script.js"></script>
+<script defer data-domain="flatpak.app" src="https://tally.cloudflare2125.workers.dev/scripts/script.js"></script>
