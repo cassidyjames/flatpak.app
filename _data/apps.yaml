@@ -73,6 +73,11 @@ fretboard:
   remote: flathub
   rdnn: dev.bragefuglseth.Fretboard
 
+gimp:
+  name: GNU Image Manipulation Program
+  remote: flathub
+  rdnn: org.gimp.GIMP
+
 harvey:
   name: Harvey
   remote: appcenter
