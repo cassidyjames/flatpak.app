@@ -173,6 +173,11 @@ telegram:
   remote: flathub
   rdnn: org.telegram.desktop
 
+thunderbird:
+  name: Thunderbird
+  remote: flathub
+  rdnn: org.mozilla.Thunderbird
+
 torrential:
   name: Torrential
   remote: appcenter
