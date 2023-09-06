@@ -103,6 +103,11 @@ obs:
   remote: flathub
   rdnn: com.obsproject.Studio
 
+penpot:
+  name: Penpot Desktop
+  remote: flathub
+  rdnn: com.sudovanilla.penpot-desktop
+
 plex:
   name: Plex
   remote: flathub
