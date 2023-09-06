@@ -48,6 +48,11 @@ duckstation:
   remote: flathub
   rdnn: org.duckstation.DuckStation
 
+eddy:
+  name: Eddy
+  remote: appcenter
+  rdnn: com.github.donadigo.eddy
+
 edge:
   name: Microsoft Edge
   remote: flathub
