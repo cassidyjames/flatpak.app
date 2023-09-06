@@ -6,7 +6,7 @@ permalink: 404.html
 
 If you've disabled JavaScript, this proof-of-concept won't work for you. Try heading to [the homepage]({{ '/' | relative_url }}) to learn more.
 
-<script defer data-domain="flatpak.app" src="https://plausible.io/js/script.js"></script>
+<script defer data-domain="flatpak.app" src="https://tally.cloudflare2125.workers.dev/scripts/script.js"></script>
 <script>
   document.addEventListener ('DOMContentLoaded', (event) => {
     let path = window.location.pathname.replace ("{{ site.baseurl }}/", "");
