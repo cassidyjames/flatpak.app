@@ -83,6 +83,11 @@ harvey:
   remote: appcenter
   rdnn: com.github.danrabbit.harvey
 
+key:
+  name: Endless Key
+  remote: flathub
+  rdnn: org.endlessos.Key
+
 libreoffice:
   name: LibreOffice
   remote: flathub
