@@ -138,6 +138,11 @@ penpot:
   remote: flathub
   rdnn: com.sudovanilla.penpot-desktop
 
+pinta:
+  name: Pinta
+  remote: flathub
+  rdnn: com.github.PintaProject.Pinta
+
 plex:
   name: Plex
   remote: flathub
