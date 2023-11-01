@@ -203,6 +203,11 @@ vscode:
   remote: flathub
   rdnn: com.visualstudio.code
 
+warehouse:
+  name: Warehouse
+  remote: flathub
+  rdnn: io.github.flattool.Warehouse
+
 xemu:
   name: xemu
   remote: flathub
