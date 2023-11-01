@@ -1,3 +1,8 @@
+1password:
+  name: 1Password
+  remote: 1password
+  rdnn: "#flatpak" # this is terrible
+
 bitwig:
   name: Bitwig Studio
   remote: flathub
