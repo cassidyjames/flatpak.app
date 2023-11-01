@@ -133,6 +133,11 @@ obsidian:
   remote: flathub
   rdnn: md.obsidian.Obsidian
 
+parabolic:
+  name: Parabolic
+  remote: flathub
+  rdnn: org.nickvision.tubeconverter
+
 penpot:
   name: Penpot Desktop
   remote: flathub
