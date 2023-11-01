@@ -88,6 +88,11 @@ key:
   remote: flathub
   rdnn: org.endlessos.Key
 
+konsole:
+  name: Konsole
+  remote: flathub
+  rdnn: org.kde.konsole
+
 libreoffice:
   name: LibreOffice
   remote: flathub
