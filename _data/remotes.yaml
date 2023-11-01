@@ -1,3 +1,7 @@
+1password:
+  name: 1Password
+  path: https://support.1password.com/install-linux/
+
 flathub:
   name: Flathub
   path: https://flathub.org/apps/
