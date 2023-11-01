@@ -128,6 +128,11 @@ obs:
   remote: flathub
   rdnn: com.obsproject.Studio
 
+obsidian:
+  name: Obsidian
+  remote: flathub
+  rdnn: md.obsidian.Obsidian
+
 parabolic:
   name: Parabolic
   remote: flathub
@@ -137,6 +142,11 @@ penpot:
   name: Penpot Desktop
   remote: flathub
   rdnn: com.sudovanilla.penpot-desktop
+
+pinta:
+  name: Pinta
+  remote: flathub
+  rdnn: com.github.PintaProject.Pinta
 
 plex:
   name: Plex
