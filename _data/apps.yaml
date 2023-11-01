@@ -28,6 +28,11 @@ clairvoyant:
   remote: flathub
   rdnn: com.github.cassidyjames.clairvoyant
 
+decibels:
+  name: Decibels
+  remote: flathub
+  rdnn: com.vixalien.decibels
+
 dippi:
   name: Dippi
   remote: flathub
