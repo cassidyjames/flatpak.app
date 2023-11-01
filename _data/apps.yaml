@@ -128,6 +128,11 @@ obs:
   remote: flathub
   rdnn: com.obsproject.Studio
 
+parabolic:
+  name: Parabolic
+  remote: flathub
+  rdnn: org.nickvision.tubeconverter
+
 penpot:
   name: Penpot Desktop
   remote: flathub
