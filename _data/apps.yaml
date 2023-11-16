@@ -233,6 +233,11 @@ torrential:
   remote: appcenter
   rdnn: com.github.davidmhewitt.torrential
 
+vivaldi:
+  name: Vivaldi
+  remote: flathub
+  rdnn: com.vivaldi.Vivaldi
+
 vlc:
   name: VLC
   remote: flathub
