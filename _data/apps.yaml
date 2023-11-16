@@ -88,6 +88,11 @@ fretboard:
   remote: flathub
   rdnn: dev.bragefuglseth.Fretboard
 
+gamestar:
+  name: Gamestar Mechanic
+  remote: flathub
+  rdnn: com.gamestarmechanic.gamestarmechanic
+
 gimp:
   name: GNU Image Manipulation Program
   remote: flathub
