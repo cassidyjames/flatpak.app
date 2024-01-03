@@ -73,6 +73,11 @@ edge:
   remote: flathub
   rdnn: com.microsoft.Edge
 
+eyedropper:
+  name: Eyedropper
+  remote: Flathub
+  rdnn: com.github.finefindus.eyedropper
+
 firefox:
   name: Firefox
   remote: flathub
