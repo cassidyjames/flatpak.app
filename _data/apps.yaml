@@ -253,6 +253,11 @@ warehouse:
   remote: flathub
   rdnn: io.github.flattool.Warehouse
 
+warp:
+  name: Warp
+  remote: flathub
+  rdnn: app.drey.Warp
+
 xemu:
   name: xemu
   remote: flathub
