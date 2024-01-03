@@ -38,6 +38,11 @@ decibels:
   remote: flathub
   rdnn: com.vixalien.decibels
 
+dialect:
+  name: Dialect
+  remote: flathub
+  rdnn: app.drey.Dialect
+
 dippi:
   name: Dippi
   remote: flathub
