@@ -138,6 +138,11 @@ melonds:
   remote: flathub
   rdnn: net.kuribo64.melonDS
 
+mumble:
+  name: Mumble
+  remote: flathub
+  rdnn: info.mumble.Mumble
+
 nimbus:
   name: Nimbus
   remote: appcenter
