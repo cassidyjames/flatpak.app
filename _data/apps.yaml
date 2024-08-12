@@ -36,7 +36,7 @@ clairvoyant:
 decibels:
   name: Decibels
   remote: flathub
-  rdnn: com.vixalien.decibels
+  rdnn: org.gnome.Decibels
 
 dialect:
   name: Dialect
